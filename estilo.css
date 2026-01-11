@@ -1,0 +1,77 @@
+body{
+    width: 1260px;
+    margin-top: 45px;
+    border: 1px black solid;
+    height: auto;
+    overflow: hidden;
+}
+
+#div1{
+    width: 800px;
+    margin: 0px 20px 0px 20px;
+    background-color: aqua;
+}
+
+#div2{
+    width: 400px;
+    margin-right: 20px;
+    background-color: aquamarine;
+}
+
+#div1, #div2{
+    height: 400px;
+    float: left;
+}
+
+#divImagen{
+    margin: 50px 0px 0px 30px;
+    width: 150px;
+    border: 1px solid black;
+    height: auto;
+}
+
+img{
+    width: 100%; /* Le ajustamos el ancho y altura a la imagen para que no se salgan de la caja */
+    height: auto;
+}
+
+form{
+    padding-top: 4rem;
+    /* Es el cálculo para saber el espaciado, ya que no hay tamaño definido, por defecto son 16px --> 16x4/1 = 64px  */
+    width: 700px;
+    margin: 0 auto;
+}
+
+form fieldset{
+    height: 180px;
+    padding: 1rem 0rem 1rem 4.375rem; /* El tamaño base de la letra (16px) entre 70px = 4.375 (para sustituir el padding-left) */
+}
+
+form fieldset input[type="text"]{
+    padding-left: 10px;
+    width: 500px;
+}
+
+form fieldset button{
+    background-color: #D8D8D8;
+    height: 2rem;
+    width: 150px;
+}
+
+p{
+    padding-top: 30px;
+    margin: 0px 10px 0px 10px;
+}
+
+footer{
+    height: 100px;
+    border: 1px black solid;
+    clear: both;
+}
+
+/* ESTILOS 2º PARTE */
+#cajaColor{
+    background-color: brown;
+    height: auto;
+    overflow: hidden; /* Para que se vea el color de fondo, ya que las cajas están flotadas */
+}
