@@ -6,6 +6,34 @@ body{
     overflow: hidden;
 }
 
+/* Contenido del header */
+header nav{
+    overflow: hidden;
+    background-color: bisque;
+    width: 1260px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Hago de la misma medida el menú para que a la hora de alinearlo quede mejor estructurado */
+.nav-izquierda {
+    float: left;
+    width: 800px;
+    margin: 0px 20px 0px 20px;
+    text-align: center; 
+}
+
+.nav-derecha {
+    float: left;
+    width: 400px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+/* Contenido de las cajas izquierda y derecha */
 #div1{
     width: 800px;
     margin: 0px 20px 0px 20px;
