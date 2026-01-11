@@ -1,5 +1,5 @@
 body{
-    width: 1260px;
+    max-width: 1260px;
     margin-top: 45px;
     border: 1px black solid;
     height: auto;
@@ -103,3 +103,4 @@ footer{
     height: auto;
     overflow: hidden; /* Para que se vea el color de fondo, ya que las cajas están flotadas */
 }
+
